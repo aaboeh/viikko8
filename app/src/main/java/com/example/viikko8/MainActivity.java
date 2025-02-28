@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         double euros = Double.parseDouble(inputText);
         double dollars = euros * 1.05;
-        String result = String.format("%s%.2f", dollars);
+        String result = String.format("$%.2f", dollars);
         ResultText.setText(result);
     }
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         double euros = Double.parseDouble(inputText);
         double pounds = euros * 0.83;
-        String result = String.format("%s%.2f", pounds);
+        String result = String.format("£%.2f", pounds);
         ResultText.setText(result);
     }
 }
