@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.496" />
 
     <Button
-        android:id="@+id/GDBButton"
+        android:id="@+id/GDPButton"
         android:layout_width="150dp"
         android:layout_height="75dp"
         android:onClick="convertToPounds"

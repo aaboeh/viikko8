@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText EuroInput;
     private TextView ResultText;
     private Button USDButton;
-    private Button GDBButton;
+    private Button GDPButton;
 
 
     @Override
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         EuroInput = findViewById(R.id.EuroInput);
         ResultText = findViewById(R.id.ResultText);
         USDButton = findViewById(R.id.USDButton);
-        GDBButton = findViewById(R.id.GDBButton);
+        GDPButton = findViewById(R.id.GDPButton);
     }
 
     public void convertToDollars(View view) {
